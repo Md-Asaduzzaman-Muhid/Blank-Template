@@ -1,0 +1,35 @@
+/** ======= Breadcrumb Style ======= **/
+.breadcrumb {
+    .breadcrumb-item {
+        float: none;
+        display: inline-block;
+        font-size: 14px;
+
+        &:first-child a {
+            color: $tmpcolor;
+        }
+
+        a {
+            color: $green;
+
+            &:hover {
+                color: $link-hover-color;
+            }
+        }
+    }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    font: normal normal normal 12px/1 FontAwesome;
+}
+
+.btn-submit {
+    border: 0;
+    outline: 0;
+    background: $tmpcolor;
+    cursor: pointer;
+
+    &:hover {
+        background: darken($tmpcolor, 10%);
+    }
+}

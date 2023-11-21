@@ -1,0 +1,24 @@
+/** ======= Career Page Style ======= **/
+.job-info {
+    text-align: right;
+    li {
+        display: inline-block;
+        padding: 7px 20px;
+        background: #ececec;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        color: #404040;
+        text-align: center;
+        font-size: 0.9rem;
+
+        &.btn-apply {
+            background: $tmpcolor;
+            color: #fff;
+            cursor: pointer;
+
+            &:hover {
+                background: darken($tmpcolor, 15%);
+            }
+        }
+    }
+}

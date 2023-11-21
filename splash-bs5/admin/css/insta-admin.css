@@ -1,0 +1,11 @@
+#publishing-action.has-fixed {
+    position: fixed;
+    right: 20px;
+    top: 32px;
+    z-index: 99999;
+    padding: 10px 15px;
+    min-width: 250px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    background: #23282d;
+}

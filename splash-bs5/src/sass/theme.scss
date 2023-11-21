@@ -1,0 +1,56 @@
+/*
+Theme Name: Html Quick Pack
+Author:
+Author URI:
+Theme URI:
+Front End Developer: Md Asaduzzaman Muhid
+Back End Developer:  Md Asaduzzaman Muhid
+Project Start:
+Date: 21-September-2023
+*/
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "theme/abstructs/variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
+
+// flaticon //
+@import "fonts/_flaticon.scss"; //flaticon
+
+// Base
+@import "theme/base/reset";
+@import "theme/base/typography";
+
+// Layouts
+@import "theme/layout/header";
+@import "theme/layout/popup";
+@import "theme/layout/forms";
+@import "theme/layout/media";
+@import "theme/layout/sidebar";
+@import "theme/layout/footer";
+
+// Components
+@import "theme/components/breadcrumb";
+@import "theme/components/buttons";
+@import "theme/components/carousel";
+@import "theme/components/dropdown";
+@import "theme/components/pagination";
+@import "theme/components/search";
+
+// Common
+@import "theme/common/utility";
+
+// Pages
+@import "theme/pages/home";
+@import "theme/pages/about";
+@import "theme/pages/career";
+@import "theme/pages/contact";
+@import "theme/pages/faq";
+@import "theme/pages/woocommerce";
+@import "theme/pages/error_page";
+
+// Vendors
+@import "theme/vendors/plugin-override";
+
+// Responsive
+@import "theme/common/responsive";
